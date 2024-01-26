@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #00ff6c, #00aaff);
+    padding: 20px;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+.main h1 {
+        text-align: center;
+        font-weight: bold;
+}
+
+.ror {
+    margin-top: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #c30010;
+    }
+
+#gridResults,
+#GridView1 {
+    margin-top: 20px;
+}
